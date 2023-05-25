@@ -1,3 +1,6 @@
+radio.onReceivedNumber(function (receivedNumber) {
+    led.setBrightness(led.brightness() + receivedNumber)
+})
 radio.onReceivedString(function (receivedString) {
     if (receivedString == "POWER") {
         entendido = !(entendido)
