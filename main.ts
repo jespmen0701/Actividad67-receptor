@@ -9,7 +9,7 @@ radio.onReceivedString(function (receivedString) {
     }
 })
 let entendido = false
-radio.setGroup(1)
+radio.setGroup(5)
 entendido = false
 led.enable(entendido)
 basic.showLeds(`
